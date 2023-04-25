@@ -2,9 +2,7 @@ public class MainController {
 
     public static void main(String[] args) {
 
-
-
-
+        System.console();
     }
     public static void printSomeNumbers(){
         for (int i = 1; i <= 60; i++){
@@ -46,12 +44,32 @@ public class MainController {
     }
 
     //Aufgabe 3:
+
+    //a
     public static void rectangleStars(int width, int height){
-        for(int i = 0; int i <= height; i++){
+        for(int i = 0;i <= height; ){
             for(int j = 0; j <=width; j++){
                 System.out.print("*");
             }
             System.out.println();
         }
     }
+//    Aufgabe3,b
+//    public static void rectangleStarsSave(int width, int height) {
+//        if (width > 0; height > 0){
+//            rectangleStars(int width, int height);
+//        }
+//
+//    }
+//
+//    Aufgabe3,c
+    public static void triangleStars(int width) {
+        for (int i = 0; i <= width; i++) {
+            for (int j = 0; j<i; j++) {
+                System.out.print("*");
+        }
+        System.out.println();
+    }
+}
+
 }
